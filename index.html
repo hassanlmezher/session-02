@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        #img-frame {
+            overflow: hidden;
+            height: 100px;
+            width: 100px;
+        }
+        
+        #img-frame img {
+            width: 100%;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: row;
+        }
+        body > div {
+            width: 50%;
+        }
+        
+        body > div:first-child{
+            background: rgb(39, 226, 255);
+        }
+    </style>
+    <title>Hsein Bitar</title>
+</head>
+<body>
+    <div>
+        <!-- blue half -->
+        <div>
+            <!-- to control horizontal position within parent -->
+            <div id="img-frame">
+                <img src="351602.png" alt="">
+            </div>
+            <form action="">
+                <h1>Create a free account now</h1>
+                <div>
+                    <input type="text" name="fullname" id="fullname" required placeholder="Enter your full name">
+                    <!-- <p>Error: </p> -->
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" required placeholder="Enter your email">
+                </div>
+                <div>
+                    <input type="password" name="password" id="password" required placeholder="Enter your password">
+                </div>
+            </form>
+            <button>
+                CREATE ACCOUNT
+            </button>
+            <p>
+                Already have an account?
+                <a href="/login">Log In</a>
+            </p>
+        </div>
+    </div>
+    <div>
+        <!-- white half -->
+        white half
+    </div>
+</body>
+</html>
