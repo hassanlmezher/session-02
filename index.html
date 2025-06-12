@@ -10,19 +10,26 @@
             box-sizing: border-box;
         }
         
-        #img-frame {
+        .img-frame {
             overflow: hidden;
             height: 100px;
-            width: 100px;
+            width: 200px;
+            display: flex;
+            justify-content: right;
+            align-items: center;
         }
         
-        #img-frame img {
-            width: 100%;
+        .img-frame img {
+            width: 150px;
+
+            
         }
         
         body {
             display: flex;
             flex-direction: row;
+            height: 620px;
+            width: 100%;
         }
         body > div {
             width: 50%;
@@ -31,19 +38,26 @@
         body > div:first-child{
             background: rgb(39, 226, 255);
         }
+        .blue-content{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            margin-left: 200px;
+        }
     </style>
-    <title>Hsein Bitar</title>
+    <title>Hassan Mezher</title>
 </head>
 <body>
     <div>
         <!-- blue half -->
-        <div>
+        <div class="blue-content">
             <!-- to control horizontal position within parent -->
-            <div id="img-frame">
-                <img src="351602.png" alt="">
+            <div class="img-frame">
+                <img src="351602 (2).png" alt="">
             </div>
-            <form action="">
-                <h1>Create a free account now</h1>
+            <form action="" class="form1">
+                <h1 style="color: white;">Create a free account now</h1>
                 <div>
                     <input type="text" name="fullname" id="fullname" required placeholder="Enter your full name">
                     <!-- <p>Error: </p> -->
