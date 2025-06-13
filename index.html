@@ -79,9 +79,75 @@
         .a1{
             color: white;
             font-size: 12px;
+            
         }
-        
-    
+        .titlewhite{
+            width: 100%;
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content:end;
+            align-items: center;
+            
+        }
+        .ptitle{
+            font-size: x-large;
+            font-weight: 800;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-right: 80px;
+
+        }
+        .div1white{
+            display: flex;
+        }
+        .divdiv{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .div21{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 10px;
+            margin-right: 20px;
+            
+            
+        }
+        .divlink{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 70px;
+        }
+        .imglogo{
+            width: 50px;
+        }
+        .maindivwhite{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+            margin-right: 70px;
+        }
+        .p21{
+            color: grey;
+        }
+        .lastdiv{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 23px;
+            margin-right: 150px;
+        }
+        .p22{
+            color: grey;
+            margin-right: 10px;
+            font-size: 14px;
+        }
     </style>
     <title>Hassan Mezher</title>
 </head>
@@ -109,32 +175,38 @@
             <button class="button1">
                 CREATE ACCOUNT
             </button>
+            <div class="divlink">
             <p class="link1">
                 <span class="p11">Already have an account?</span>
                 <a class="a1" href="/login">Log In</a>
             </p>
+            </div>
         </div>
     </div>
-    <div class="whitediv" style="border: 2px solid black;">
+    <div class="whitediv">
         <!-- white half -->
 
-         <div><img class="titlewhite" src="white-header.png" alt="this is the title"></div>
-
-         <div>
-            <div> <img src="1st.png" class="imglogo"/> <p class="p21">Email marketing</p></div>
-            <div> <img src="2nd pic.png" class="imglogo"/> <p class="p21">Advanced segmentation</p></div>
-            <div> <img src="3rd pic.png" class="imglogo"/> <p class="p21">AI-powered, code-free website builder</p></div>
-            <div> <img src="4th pic.png" class="imglogo"/> <p class="p21">Marketing automation</p></div>
+         <div class="titlewhite">
+            <p class="ptitle">Email</p>
+            <p class="ptitle"><mark>marketing platform</mark></p>
+            <p class="ptitle">to grow up your business</p>
         </div>
+        <div class="maindivwhite">
+            <div class="div1white">
+                <div class="div21"> <img src="1st.png" class="imglogo"/> <p class="p21">Email marketing</p></div>
+                <div class="div21"> <img src="2nd pic.png" class="imglogo"/> <div class="divdiv"><p class="p21">Advanced</p><p class="p21">segmentation</p></div></div>
+                <div class="div21"> <img src="3rd pic.png" class="imglogo"/> <div class="divdiv"><p class="p21">AI-powered, code-free</p><p class="p21">website builder</p></div></div>
+                <div class="div21"> <img src="4th pic.png" class="imglogo"/> <div class="divdiv"><p class="p21">Marketing</p><p class="p21">automation</p></div></div>
+            </div>
 
-         <div>
-            <div> <img src="5th pic.png" class="imglogo"/> <p class="p21">Highly engaging webinars</p></div>
-            <div> <img src="6th pic.png" class="imglogo"/> <p class="p21">Signup forms and popups</p></div>
-            <div> <img src="7th pic.png" class="imglogo"/> <p class="p21">Advanced analytics and testing tools</p></div>
-            <div> <img src="8th pic.png" class="imglogo"/> <p class="p21">Automated sales, lead and webinar funnels</p></div>
+            <div class="div1white">
+                <div class="div21"> <img src="5th pic.png" class="imglogo"/> <div class="divdiv"><p class="p21">Highly engaging</p><p class="p21">webinars</p></div></div>
+                <div class="div21"> <img src="6th pic.png" class="imglogo"/> <div class="divdiv"><p class="p21">Signup forms</p><p class="p21">and popups</p></div></div>
+                <div class="div21"> <img src="7th pic.png" class="imglogo"/> <div class="divdiv"><p class="p21">Advanced analytics</p><p class="p21">and testing tools</p></div></div>
+                <div class="div21"> <img src="8th pic.png" class="imglogo"/> <div class="divdiv"><p class="p21">Automated sales, lead</p><p class="p21">and webinar funnels</p></div></div>
+            </div>
         </div>
-
-         <div>
+         <div class="lastdiv">
             <p class="p22">Start for free</p>
             <p class="p22">.</p>
             <p class="p22">No credit card required</p>
